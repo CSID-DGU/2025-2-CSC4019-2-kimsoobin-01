@@ -8,14 +8,14 @@ python-dotenv==1.0.1
 loguru==0.7.2
 redis==5.1.1
 
-# Sentiment (가볍고 설치 쉬움)
+# Sentiment
 vaderSentiment==3.3.2
 
-# Google Generative AI (Gemini)
+# Google Generative AI (Gemini) - (필요 없으면 이것도 나중에 제거 가능)
 google-generativeai==0.8.3
 
-# OpenAI (Whisper API용)
-openai==1.52.2
+# STT(Local, Whisper)
+faster-whisper>=1.0,<2
 
-# CORS
+# CORS/Worker (필요 시)
 uvicorn-worker==0.2.0
